@@ -1,38 +1,13 @@
-// Common
-import React from 'react';
-// Components
-import Navbar from '../components/Navbar';
-import Titles from '../components/Titles';
-import Sponsor from '../components/Sponsor';
-import TitleCat from '../components/TitleCat';
-import Categories from '../components/Categories';
-import Cards from '../components/Cards';
-import Suscription from '../components/Suscription';
-import CreateNft from '../components/CreateNft';
-import TopWeek from '../components/TopWeek';
-import Joincommunity from '../components/Joincommunity';
+import React from 'react'
 
-// Icons
+//icons 
+
 import { FaDiscord,FaTiktok } from "react-icons/fa";
 import { AiOutlineTwitter,AiFillYoutube } from "react-icons/ai";
 
-const Home = () => {
-    return (
-        <main className='flex flex-col gap-10 md:gap-20 items-center bg-black w-full h-auto pb-20'>
-            <Navbar />
-            <Titles />
-            <Sponsor />
-            <TitleCat />
-            <Categories />
-            <Cards />
-            <Suscription/>
-            <CreateNft/>
-            <TopWeek/>
-            <Joincommunity/>
-
-           
-            
-            <footer className='flex flex-col md:flex-row items-center justify-center gap-4 w-full py-6 px-28'>
+const Footer = () => {
+  return (
+    <footer className='flex flex-col md:flex-row items-center justify-center gap-4 w-full py-6 px-28'>
                 <div>
                     <img src='img/logo_supre.png' className='w-20 flex-shrink-0' />
                     <p className='md:w-1/3 font-light text-zinc-400 text-xs'>
@@ -77,9 +52,7 @@ const Home = () => {
                     </div>
                 </div>
             </footer>
-        </main >
-
-    )
+  )
 }
 
-export default Home
+export default Footer
