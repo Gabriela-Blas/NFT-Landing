@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className='w-full flex justify-between items-center gap-6 p-4 md:py-8 text-white/70 max-w-screen-xl'>
             <div className='w-20 flex-shrink-0'>
-                <img src='img/logo_supre.png' />
+                <img src='img/logo_supre.png' alt='logo_image' />
             </div>
             {/* links navbar */}
             <ul className='hidden md:flex w-full gap-12'>
